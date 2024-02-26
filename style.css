@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: blue;
+  height: 10vh;
+  width: 100%;
+}
+
+nav ul {
+  /* list-style: none; */
+  display: flex;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+nav ul li {
+  /* list-style: none; */
+  gap: 20px;
+}
+
+nav ul li a {
+  /* list-style: none; */
+  text-decoration: none;
+}
