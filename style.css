@@ -12,20 +12,42 @@ body {
 }
 
 nav {
-  list-style: none;
   display: flex;
   align-items: center;
   padding: 10px;
-  background-color: blue;
+  background-color: white;
+  box-shadow: -1px 1px 1px 1px black;
   height: 10vh;
   width: 100%;
+  list-style: none;
+  gap: 2rem;
+}
+
+h2 {
+  margin-left: 80px;
+  margin-right: 200px;
+}
+
+span {
+  color: purple;
+}
+
+#login {
+  background-color: purple;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+}
+
+#sign-up {
+  margin-left: 200px;
 }
 
 nav ul {
   /* list-style: none; */
   display: flex;
   gap: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 nav ul li {
@@ -34,6 +56,7 @@ nav ul li {
 }
 
 nav ul li a {
-  /* list-style: none; */
   text-decoration: none;
+  /* list-style: none; */
+  gap: 20px;
 }
